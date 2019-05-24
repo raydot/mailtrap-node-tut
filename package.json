@@ -1,0 +1,39 @@
+{
+  "name": "mailtrap-tutorial",
+  "version": "1.0.0",
+  "description": "A Tutorial on sending e-mail and testing with Mailtrap.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raydot/mailtrap-node-tut.git"
+  },
+  "keywords": [
+    "email",
+    "sandbox",
+    "testing",
+    "mailtrap",
+    "node.js",
+    "express.js"
+  ],
+  "author": "Dave Kanter",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/raydot/mailtrap-node-tut/issues"
+  },
+  "homepage": "https://github.com/raydot/mailtrap-node-tut#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.1.1",
+    "validator": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0",
+    "standard": "^12.0.1"
+  }
+}
